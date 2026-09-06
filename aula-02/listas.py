@@ -17,7 +17,7 @@ Este arquivo está dividido em duas partes:
     PARTE 1 - O BÁSICO (seções 1 a 9)
         Tudo o que você precisa para usar listas no dia a dia.
 
-    PARTE 2 - PARA IR ALÉM (seções 10 a 12)
+    PARTE 2 - PARA IR ALÉM (seções 10 e 11)
         Alguns recursos a mais sobre listas.
         Leia depois de praticar a parte 1.
 
@@ -303,21 +303,6 @@ print(f"com comprehension: {quadrados}")
 # Também dá para filtrar com if:
 pares = [n for n in range(1, 11) if n % 2 == 0]
 print(f"\npares de 1 a 10:   {pares}")
-
-
-# ---------------------------------------------------------------------------
-# 12. LISTAS DENTRO DE LISTAS (MATRIZES)
-# ---------------------------------------------------------------------------
-titulo("12. [Além] Listas dentro de listas (matrizes)")
-
-# Uma lista pode conter outras listas. É assim que representamos uma tabela:
-tabela = [
-    [1, 2, 3],
-    [4, 5, 6],
-]
-print(f"tabela       = {tabela}")
-print(f"tabela[0]    = {tabela[0]}  <- primeira linha")
-print(f"tabela[1][2] = {tabela[1][2]}  <- segunda linha, terceira coluna")
 
 
 # ---------------------------------------------------------------------------

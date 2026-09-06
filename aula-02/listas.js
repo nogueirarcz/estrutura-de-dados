@@ -15,14 +15,8 @@ Para isso existe o ARRAY: uma sequência de valores, em ordem, que pode
 crescer, encolher e ser alterada a qualquer momento. É o equivalente da
 lista (list) do Python, e muita gente chama de "lista" também.
 
-Este arquivo está dividido em duas partes:
-
-    PARTE 1 - O BÁSICO (seções 1 a 9)
-        Tudo o que você precisa para usar arrays no dia a dia.
-
-    PARTE 2 - PARA IR ALÉM (seção 10)
-        Um recurso a mais sobre arrays.
-        Leia depois de praticar a parte 1.
+São 9 seções curtas, uma para cada coisa que você faz com um array
+no dia a dia.
 
 Execute este arquivo para ver os exemplos em ação:
 
@@ -46,10 +40,6 @@ function mostrar(array) {
   return util.inspect(array);
 }
 
-
-// ===========================================================================
-// PARTE 1 - O BÁSICO
-// ===========================================================================
 
 // ---------------------------------------------------------------------------
 // 1. CRIANDO ARRAYS
@@ -283,26 +273,6 @@ console.log(`média        = ${(soma / notas.length).toFixed(2)}`);
 // separados, então usamos os três pontos (spread) para "espalhar" o array:
 console.log(`Math.min(...notas) = ${Math.min(...notas)}`);
 console.log(`Math.max(...notas) = ${Math.max(...notas)}`);
-
-
-// ===========================================================================
-// PARTE 2 - PARA IR ALÉM
-// ===========================================================================
-// Daqui em diante o conteúdo é mais avançado. Leia depois de praticar a parte 1.
-
-// ---------------------------------------------------------------------------
-// 10. ARRAYS DENTRO DE ARRAYS (MATRIZES)
-// ---------------------------------------------------------------------------
-titulo("10. [Além] Arrays dentro de arrays (matrizes)");
-
-// Um array pode conter outros arrays. É assim que representamos uma tabela:
-const tabela = [
-  [1, 2, 3],
-  [4, 5, 6],
-];
-console.log(`tabela       = ${mostrar(tabela)}`);
-console.log(`tabela[0]    = ${mostrar(tabela[0])}  <- primeira linha`);
-console.log(`tabela[1][2] = ${tabela[1][2]}  <- segunda linha, terceira coluna`);
 
 
 // ---------------------------------------------------------------------------

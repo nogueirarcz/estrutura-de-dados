@@ -67,7 +67,7 @@ Convenções de nomes:
 | Aula | Tema | Python | Java | JavaScript |
 |------|------|--------|------|------------|
 | 01 | Tipos primitivos: números, booleanos, texto e ausência de valor; tipagem, conversão entre tipos, imutabilidade e identidade | [`tipos-primitivos.py`](aula-01/tipos-primitivos.py) | [`TiposPrimitivos.java`](aula-01/TiposPrimitivos.java) | [`tipos-primitivos.js`](aula-01/tipos-primitivos.js) |
-| 02 | Listas: criar, acessar, fatiar, alterar, adicionar, remover, procurar, ordenar e percorrer; ao final, cópia, comprehension e matrizes | [`listas.py`](aula-02/listas.py) | em breve | [`listas.js`](aula-02/listas.js) |
+| 02 | Listas: criar, acessar, fatiar, alterar, adicionar, remover, procurar, ordenar e percorrer; ao final, cópia e comprehension | [`listas.py`](aula-02/listas.py) | [`Listas.java`](aula-02/Listas.java) | [`listas.js`](aula-02/listas.js) |
 
 Novas aulas e linguagens serão adicionadas à tabela conforme o semestre avança.
 
