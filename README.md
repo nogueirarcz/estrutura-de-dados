@@ -68,7 +68,7 @@ Convenções de nomes:
 |------|------|--------|------|------------|
 | 01 | Tipos primitivos: números, booleanos, texto e ausência de valor; tipagem, conversão entre tipos, imutabilidade e identidade | [`tipos-primitivos.py`](aula-01/tipos-primitivos.py) | [`TiposPrimitivos.java`](aula-01/TiposPrimitivos.java) | [`tipos-primitivos.js`](aula-01/tipos-primitivos.js) |
 | 02 | Listas: criar, acessar, fatiar, alterar, adicionar, remover, procurar, ordenar e percorrer; ao final, cópia e comprehension | [`listas.py`](aula-02/listas.py) | [`Listas.java`](aula-02/Listas.java) | [`listas.js`](aula-02/listas.js) |
-| 03 | Matrizes: lista de listas, acesso por linha e coluna, criar, alterar, percorrer com dois `for`, somar linhas e colunas, tabuleiro; ao final, a armadilha da multiplicação e a transposta | [`matrizes.py`](aula-03/matrizes.py) | em breve | em breve |
+| 03 | Matrizes: lista de listas, acesso por linha e coluna, criar, alterar, percorrer com dois `for`, somar linhas e colunas, tabuleiro; ao final, a armadilha da multiplicação e a transposta | [`matrizes.py`](aula-03/matrizes.py) | [`Matrizes.java`](aula-03/Matrizes.java) | em breve |
 
 Novas aulas e linguagens serão adicionadas à tabela conforme o semestre avança.
 
